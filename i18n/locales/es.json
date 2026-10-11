@@ -1,67 +1,95 @@
 {
   "meta": {
     "title": "Francesco & Maria Gracia — 20 de agosto de 2027",
-    "description": "La boda de Francesco y Maria Gracia, el 20 de agosto de 2027. Fecha, lugar, lista de regalos y aportes."
+    "description": "La boda de Francesco y Maria Gracia, el 20 de agosto de 2027 en Lisboa. Fecha, lugar, lista de regalos y aportes."
   },
-  "nav": { "story": "Nuestra historia", "details": "El gran día", "gifts": "Lista de regalos", "contribute": "Contribuir", "language": "Idioma" },
+  "nav": { "story": "Nuestra historia", "details": "El gran día", "gifts": "Regalos", "stay": "Lisboa", "contribute": "Contribuir", "language": "Idioma" },
+  "chooser": {
+    "title": "Dos versiones del sitio",
+    "text": "Elige la versión que quieres ver. La elección definitiva se hará más adelante.",
+    "moderne": "Versión moderna",
+    "carnet": "Versión cuaderno de viaje",
+    "open": "Abrir"
+  },
   "hero": {
-    "eyebrow": "Nos casamos",
+    "eyebrow": "¡Nos casamos!",
     "date": "Viernes 20 de agosto de 2027",
-    "save": "Reserva la fecha",
-    "addToCalendar": "Añadir al calendario"
+    "place": "Lisboa",
+    "addToCalendar": "Añadir al calendario",
+    "daysLeft": "falta {n} día | faltan {n} días",
+    "today": "¡Es hoy!",
+    "past": "¡Gracias por compartir este día con nosotros!",
+    "countries": "4 países",
+    "countriesList": "Italia · Venezuela · Francia · Portugal",
+    "path": "1 camino",
+    "pathText": "Nos conocimos durante una peregrinación",
+    "nextStep": "Próxima etapa: la boda",
+    "quote": "« Nuestros pasos se encontraron en el camino de una peregrinación. Seguimos la ruta juntos. »",
+    "soon": "Pronto casados"
   },
-  "countdown": { "days": "días", "hours": "horas", "minutes": "minutos", "seconds": "segundos", "today": "¡Es hoy!", "past": "¡Gracias por compartir este día con nosotros!" },
   "story": {
-    "eyebrow": "Nuestra historia",
-    "title": "Dos caminos, una sola ruta",
+    "title": "Nuestros caminos se cruzaron durante una peregrinación.",
+    "carnetTitle": "Cuatro ciudades, una misma ruta",
     "intro": "Nuestros caminos se cruzaron durante una peregrinación. Desde entonces, a pesar de los kilómetros, caminamos juntos.",
-    "francesco": "Nacido en Pescara, en la costa de los Abruzos, hoy vive en Grenoble, al pie de los Alpes.",
-    "mariagracia": "Nacida en Venezuela, hoy vive en Lisboa, a orillas del Tajo.",
-    "met": "Una peregrinación",
-    "metText": "Donde nuestros pasos se encontraron y donde todo comenzó."
+    "cities": {
+      "pescara": { "name": "Pescara", "tag": "Francesco · sus raíces", "text": "En la costa de los Abruzos, frente al Adriático.", "long": "Francesco creció aquí, frente al Adriático.", "alt": "Un trabucco en la costa de los Abruzos" },
+      "grenoble": { "name": "Grenoble", "tag": "Francesco · hoy", "text": "Al pie de los Alpes.", "long": "Donde Francesco vive hoy.", "alt": "Las burbujas del teleférico de Grenoble" },
+      "puertocabello": { "name": "Puerto Cabello", "tag": "Maria Gracia · sus raíces", "text": "En la costa caribeña de Venezuela.", "long": "Maria Gracia creció aquí, frente al mar Caribe.", "alt": "El monumento del Águila en el Malecón de Puerto Cabello" },
+      "lisbonne": { "name": "Lisboa", "tag": "Maria Gracia · hoy", "text": "A orillas del Tajo.", "long": "Donde Maria Gracia vive hoy.", "alt": "Un tranvía amarillo en una calle de Lisboa" }
+    }
   },
   "details": {
-    "eyebrow": "El gran día",
-    "title": "Cuándo & dónde",
-    "date": "Fecha",
+    "title": "El gran día",
+    "carnetTitle": "La etapa del 20 de agosto",
     "ceremony": "Ceremonia",
     "reception": "Recepción",
-    "map": "Ver en el mapa",
+    "directions": "Cómo llegar",
     "tbc": "Los detalles prácticos (alojamiento, transporte, horarios) se anunciarán próximamente."
   },
   "gifts": {
-    "eyebrow": "Lista de regalos",
-    "title": "Nuestros deseos",
-    "intro": "Tu presencia es nuestro mejor regalo. Para quienes deseen obsequiarnos algo, aquí van algunas ideas para construir nuestra vida juntos.",
+    "title": "Lista de regalos",
+    "carnetTitle": "Para seguir el viaje",
+    "intro": "Tu presencia es nuestro mejor regalo. Para quienes deseen obsequiarnos algo, aquí van algunas ideas.",
     "free": "Monto libre",
-    "from": "Aprox. {price}",
-    "contribute": "Contribuir",
+    "about": "Aprox. {price}",
     "view": "Ver",
     "items": {
-      "honeymoon": { "title": "Luna de miel", "text": "Ayúdanos a vivir un viaje inolvidable para empezar nuestra vida de casados." },
+      "honeymoon": { "title": "Luna de miel", "text": "Un viaje inolvidable para empezar nuestra vida de casados." },
       "home": { "title": "Nuestro futuro hogar", "text": "Un aporte para instalarnos bajo un mismo techo." },
-      "kitchen": { "title": "Utensilios de cocina", "text": "Para cocinar juntos pasta italiana y arepas venezolanas." },
-      "linen": { "title": "Ropa de hogar", "text": "Sábanas, toallas y manteles para recibir a familia y amigos." },
-      "table": { "title": "Vajilla", "text": "Platos y copas para largas sobremesas compartidas." },
-      "pilgrimage": { "title": "Una nueva peregrinación", "text": "Volver a caminar juntos, allí donde comenzó nuestra historia." }
+      "table": { "title": "Vajilla", "text": "Platos y copas para largas sobremesas compartidas." }
     }
   },
+  "stay": {
+    "title": "Tu estancia en Lisboa",
+    "intro": "La boda será en Lisboa. Para que disfrutes de tu estancia, aquí van nuestras recomendaciones.",
+    "cta": "Ver nuestras recomendaciones",
+    "restaurants": { "title": "Restaurantes", "text": "Nuestros lugares favoritos para probar la cocina portuguesa." },
+    "visit": { "title": "Lugares para visitar", "text": "Barrios, monumentos y miradores que no te puedes perder." },
+    "beaches": { "title": "Playas", "text": "Las playas más bonitas a pocos minutos de la ciudad." }
+  },
   "contribute": {
-    "eyebrow": "Contribuir",
-    "title": "Ayúdanos a hacer realidad este día",
-    "intro": "Si lo deseas, puedes contribuir a nuestra boda y a nuestros proyectos por transferencia o en línea. ¡Gracias de todo corazón!",
-    "bank": "Transferencia bancaria",
+    "title": "Participar en la fiesta",
+    "carnetTitle": "Contribuir",
+    "intro": "Puedes ayudarnos a hacer realidad este día por transferencia o en línea. ¡Gracias de todo corazón!",
     "holder": "Titular",
     "iban": "IBAN",
     "bic": "BIC / SWIFT",
-    "reference": "Por favor indica tu nombre en el concepto de la transferencia.",
-    "online": "Pago en línea",
-    "onlineText": "Rápido y seguro, desde cualquier país.",
     "copy": "Copiar",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "paypal": "Pagar con PayPal"
+  },
+  "alt": {
+    "hands": "Las manos de los novios con un ramo",
+    "rings": "Dos alianzas doradas sobre una tela color crema",
+    "roses": "Rosas blancas y follaje",
+    "bouquet": "Ramo de rosas color melocotón y blancas",
+    "church": "Los novios ante el altar de una iglesia",
+    "reception": "Una mesa preparada para la recepción",
+    "lisbon": "Un tranvía amarillo en una calle de Lisboa"
   },
   "footer": {
+    "thanks": "Con todo nuestro amor",
     "contact": "¿Alguna pregunta? Escríbenos",
-    "thanks": "Con todo nuestro amor"
+    "photos": "Fotos: Unsplash"
   }
 }

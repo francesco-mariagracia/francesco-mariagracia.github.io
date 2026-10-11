@@ -5,52 +5,56 @@
  */
 export interface Gift {
   id: string
-  icon: string
+  /** Photo dans public/images */
+  image: string
+  /** Prix indicatif en euros, null = montant libre */
   price: number | null
+  /** Lien optionnel vers une boutique */
   url: string
 }
 
 export const wedding = {
-  // Date et heure de la cérémonie, avec le décalage horaire du lieu (+02:00 = heure d'été Italie/France)
-  date: '2027-08-20T15:00:00+02:00',
+  // Date et heure de la cérémonie, avec le décalage horaire de Lisbonne (+01:00 en été)
+  date: '2027-08-20T15:00:00+01:00',
   // Fin estimée de la fête (pour l'ajout au calendrier)
-  end: '2027-08-21T01:00:00+02:00',
+  end: '2027-08-21T01:00:00+01:00',
 
-  // Lieu — À COMPLÉTER
+  // Lieux — À COMPLÉTER
   ceremony: {
     time: '15:00',
-    name: 'Lieu de la cérémonie (à confirmer)',
-    address: 'Adresse à confirmer',
-    mapUrl: 'https://maps.google.com/?q=Pescara',
+    name: "[Nom de l'église]",
+    address: '[Adresse], Lisboa',
+    mapUrl: 'https://maps.google.com/?q=Lisboa',
   },
   reception: {
     time: '19:00',
-    name: 'Lieu de la réception (à confirmer)',
-    address: 'Adresse à confirmer',
-    mapUrl: 'https://maps.google.com/?q=Pescara',
+    name: '[Nom du lieu]',
+    address: '[Adresse], Lisboa',
+    mapUrl: 'https://maps.google.com/?q=Lisboa',
   },
 
-  // Contribution — À COMPLÉTER avec les vraies coordonnées
+  // Recommandations pour le séjour à Lisbonne — À COMPLÉTER avec vos liens
+  stay: {
+    restaurants: '#',
+    visit: '#',
+    beaches: '#',
+  },
+
+  // Participation — À COMPLÉTER avec les vraies coordonnées
   bank: {
     holder: 'Francesco & Maria Gracia',
     iban: 'FR76 0000 0000 0000 0000 0000 000',
     bic: 'XXXXXXXXXXX',
   },
-  // Laisser une chaîne vide pour masquer un moyen de paiement
+  // Laisser une chaîne vide pour masquer le bouton
   paypal: 'https://paypal.me/',
-  revolut: '',
 
   contactEmail: 'contact@example.com',
 
   // Liste de cadeaux : les textes sont dans les fichiers de traduction (gifts.items.<id>)
-  // `price` en euros (null = montant libre), `url` optionnel (lien vers une boutique)
   gifts: [
-    { id: 'honeymoon', icon: '✈️', price: null, url: '' },
-    { id: 'home', icon: '🏡', price: null, url: '' },
-    { id: 'kitchen', icon: '🍳', price: 150, url: '' },
-    { id: 'linen', icon: '🛏️', price: 120, url: '' },
-    { id: 'table', icon: '🍽️', price: 200, url: '' },
-    { id: 'pilgrimage', icon: '🕊️', price: null, url: '' },
+    { id: 'honeymoon', image: 'vigne', price: null, url: '' },
+    { id: 'home', image: 'couple', price: null, url: '' },
+    { id: 'table', image: 'table', price: 200, url: '' },
   ] as Gift[],
 }
-

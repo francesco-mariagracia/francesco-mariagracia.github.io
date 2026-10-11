@@ -1,67 +1,95 @@
 {
   "meta": {
     "title": "Francesco & Maria Gracia — 20 août 2027",
-    "description": "Le mariage de Francesco et Maria Gracia, le 20 août 2027. Date, lieu, liste de cadeaux et participation."
+    "description": "Le mariage de Francesco et Maria Gracia, le 20 août 2027 à Lisbonne. Date, lieu, liste de cadeaux et participation."
   },
-  "nav": { "story": "Notre histoire", "details": "Le jour J", "gifts": "Liste de cadeaux", "contribute": "Participer", "language": "Langue" },
+  "nav": { "story": "Notre histoire", "details": "Le jour J", "gifts": "Cadeaux", "stay": "Lisbonne", "contribute": "Participer", "language": "Langue" },
+  "chooser": {
+    "title": "Deux versions du site",
+    "text": "Choisissez la version à consulter. Le choix définitif sera fait plus tard.",
+    "moderne": "Version moderne",
+    "carnet": "Version carnet de voyage",
+    "open": "Ouvrir"
+  },
   "hero": {
-    "eyebrow": "Nous nous marions",
+    "eyebrow": "Nous nous marions !",
     "date": "Vendredi 20 août 2027",
-    "save": "Réservez la date",
-    "addToCalendar": "Ajouter au calendrier"
+    "place": "Lisbonne",
+    "addToCalendar": "Ajouter au calendrier",
+    "daysLeft": "encore {n} jour | encore {n} jours",
+    "today": "C'est aujourd'hui !",
+    "past": "Merci d'avoir partagé ce jour avec nous !",
+    "countries": "4 pays",
+    "countriesList": "Italie · Venezuela · France · Portugal",
+    "path": "1 chemin",
+    "pathText": "Rencontrés lors d'un pèlerinage",
+    "nextStep": "Prochaine étape : le mariage",
+    "quote": "« Nos pas se sont rencontrés sur un chemin de pèlerinage. Nous continuons la route ensemble. »",
+    "soon": "Bientôt mariés"
   },
-  "countdown": { "days": "jours", "hours": "heures", "minutes": "minutes", "seconds": "secondes", "today": "C'est aujourd'hui !", "past": "Merci d'avoir partagé ce jour avec nous !" },
   "story": {
-    "eyebrow": "Notre histoire",
-    "title": "Deux chemins, une seule route",
+    "title": "Nos chemins se sont croisés lors d'un pèlerinage.",
+    "carnetTitle": "Quatre villes, une même route",
     "intro": "Nos chemins se sont croisés lors d'un pèlerinage. Depuis, malgré les kilomètres, nous marchons ensemble.",
-    "francesco": "Né à Pescara, sur la côte des Abruzzes, il vit aujourd'hui à Grenoble, au pied des Alpes.",
-    "mariagracia": "Née au Venezuela, elle vit aujourd'hui à Lisbonne, au bord du Tage.",
-    "met": "Un pèlerinage",
-    "metText": "Là où nos pas se sont rencontrés et où tout a commencé."
+    "cities": {
+      "pescara": { "name": "Pescara", "tag": "Francesco · ses racines", "text": "Sur la côte des Abruzzes, face à l'Adriatique.", "long": "Francesco y a grandi, face à l'Adriatique.", "alt": "Un trabucco sur la côte des Abruzzes" },
+      "grenoble": { "name": "Grenoble", "tag": "Francesco · aujourd'hui", "text": "Au pied des Alpes.", "long": "Où Francesco vit aujourd'hui.", "alt": "Les bulles du téléphérique de Grenoble" },
+      "puertocabello": { "name": "Puerto Cabello", "tag": "Maria Gracia · ses racines", "text": "Sur la côte caraïbe du Venezuela.", "long": "Maria Gracia y a grandi, face à la mer des Caraïbes.", "alt": "Le monument de l'Aigle sur le Malecón de Puerto Cabello" },
+      "lisbonne": { "name": "Lisbonne", "tag": "Maria Gracia · aujourd'hui", "text": "Au bord du Tage.", "long": "Où Maria Gracia vit aujourd'hui.", "alt": "Un tramway jaune dans une rue de Lisbonne" }
+    }
   },
   "details": {
-    "eyebrow": "Le jour J",
-    "title": "Quand & où",
-    "date": "Date",
+    "title": "Le jour J",
+    "carnetTitle": "L'étape du 20 août",
     "ceremony": "Cérémonie",
     "reception": "Réception",
-    "map": "Voir sur la carte",
+    "directions": "Itinéraire",
     "tbc": "Les détails pratiques (hébergement, transport, horaires) seront précisés prochainement."
   },
   "gifts": {
-    "eyebrow": "Liste de cadeaux",
-    "title": "Nos envies",
-    "intro": "Votre présence est notre plus beau cadeau. Pour ceux qui souhaitent nous gâter, voici quelques idées pour construire notre vie à deux.",
+    "title": "Liste de cadeaux",
+    "carnetTitle": "Pour la suite du voyage",
+    "intro": "Votre présence est notre plus beau cadeau. Pour ceux qui souhaitent nous gâter, voici quelques idées.",
     "free": "Montant libre",
-    "from": "Environ {price}",
-    "contribute": "Participer",
+    "about": "Environ {price}",
     "view": "Voir",
     "items": {
-      "honeymoon": { "title": "Voyage de noces", "text": "Aidez-nous à vivre un voyage inoubliable pour commencer notre vie de mariés." },
+      "honeymoon": { "title": "Voyage de noces", "text": "Un voyage inoubliable pour commencer notre vie de mariés." },
       "home": { "title": "Notre futur foyer", "text": "Une contribution pour notre installation sous un même toit." },
-      "kitchen": { "title": "Ustensiles de cuisine", "text": "Pour cuisiner ensemble pâtes italiennes et arepas vénézuéliennes." },
-      "linen": { "title": "Linge de maison", "text": "Draps, serviettes et nappes pour accueillir famille et amis." },
-      "table": { "title": "Art de la table", "text": "Vaisselle et verres pour de longues tablées partagées." },
-      "pilgrimage": { "title": "Un nouveau pèlerinage", "text": "Repartir ensemble sur les chemins, là où notre histoire a commencé." }
+      "table": { "title": "Art de la table", "text": "Vaisselle et verres pour de longues tablées partagées." }
     }
   },
+  "stay": {
+    "title": "Votre séjour à Lisbonne",
+    "intro": "Le mariage aura lieu à Lisbonne. Pour profiter de votre séjour, voici nos recommandations.",
+    "cta": "Voir nos recommandations",
+    "restaurants": { "title": "Restaurants", "text": "Nos adresses préférées pour goûter la cuisine portugaise." },
+    "visit": { "title": "Lieux à visiter", "text": "Quartiers, monuments et points de vue à ne pas manquer." },
+    "beaches": { "title": "Plages", "text": "Les plus belles plages à quelques minutes de la ville." }
+  },
   "contribute": {
-    "eyebrow": "Participer",
-    "title": "Nous aider à financer ce beau jour",
-    "intro": "Si vous le souhaitez, vous pouvez participer au financement de notre mariage et de nos projets par virement ou en ligne. Merci du fond du cœur !",
-    "bank": "Virement bancaire",
+    "title": "Participer à la fête",
+    "carnetTitle": "Participer",
+    "intro": "Vous pouvez nous aider à financer ce beau jour par virement ou en ligne. Merci du fond du cœur !",
     "holder": "Titulaire",
     "iban": "IBAN",
     "bic": "BIC / SWIFT",
-    "reference": "Merci d'indiquer votre nom en référence du virement.",
-    "online": "Paiement en ligne",
-    "onlineText": "Rapide et sécurisé, depuis n'importe quel pays.",
     "copy": "Copier",
-    "copied": "Copié !"
+    "copied": "Copié !",
+    "paypal": "Payer avec PayPal"
+  },
+  "alt": {
+    "hands": "Les mains des mariés avec un bouquet",
+    "rings": "Deux alliances dorées sur un tissu crème",
+    "roses": "Roses blanches et feuillage",
+    "bouquet": "Bouquet de roses pêche et blanches",
+    "church": "Des mariés devant l'autel d'une église",
+    "reception": "Une table de réception dressée",
+    "lisbon": "Un tramway jaune dans une rue de Lisbonne"
   },
   "footer": {
+    "thanks": "Avec tout notre amour",
     "contact": "Une question ? Écrivez-nous",
-    "thanks": "Avec tout notre amour"
+    "photos": "Photos : Unsplash"
   }
 }

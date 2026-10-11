@@ -3,6 +3,16 @@
 Site du mariage de Francesco et Maria Gracia : date, lieu, liste de cadeaux et participation.
 Disponible en 🇫🇷 français, 🇮🇹 italien, 🇪🇸 espagnol et 🇵🇹 portugais.
 
+Deux versions du site sont en ligne en même temps, le temps de choisir :
+
+| Version | URL |
+| --- | --- |
+| Page de choix | `/` |
+| Moderne (DM Serif Display + DM Sans) | `/moderne` — `app/pages/moderne.vue` |
+| Carnet de voyage (Lora + Work Sans) | `/carnet` — `app/pages/carnet.vue` |
+
+Chaque version existe dans les 4 langues : `/it/moderne`, `/es/carnet`, `/pt/moderne`…
+
 Stack : [Nuxt 4](https://nuxt.com), [Tailwind CSS](https://tailwindcss.com), [@nuxtjs/i18n](https://i18n.nuxtjs.org) — généré en statique.
 
 ## Modifier le contenu
@@ -10,10 +20,12 @@ Stack : [Nuxt 4](https://nuxt.com), [Tailwind CSS](https://tailwindcss.com), [@n
 | Quoi | Où |
 | --- | --- |
 | Date, lieux, horaires, liens Google Maps | `app/config/wedding.ts` |
+| Liens des recommandations (restaurants, visites, plages) | `app/config/wedding.ts` → `stay` |
 | IBAN / BIC / PayPal / Revolut / e-mail de contact | `app/config/wedding.ts` |
-| Liste de cadeaux (icône, prix, lien boutique) | `app/config/wedding.ts` → `gifts` |
+| Liste de cadeaux (photo, prix, lien boutique) | `app/config/wedding.ts` → `gifts` |
 | Textes traduits | `i18n/locales/{fr,it,es,pt}.json` |
 | Couleurs et polices | `tailwind.config.ts` |
+| Photos | `public/images/` (Unsplash, licence gratuite) |
 
 Pour ajouter un cadeau : ajouter une entrée dans `gifts` puis les clés `gifts.items.<id>.title` / `.text` dans les 4 fichiers de langue.
 
@@ -23,6 +35,7 @@ Pour ajouter un cadeau : ajouter une entrée dans `gifts` puis les clés `gifts.
 npm install
 npm run dev        # http://localhost:3000
 npm run generate   # site statique dans .output/public
+npm run typecheck  # vérification TypeScript
 ```
 
 ## Déploiement (GitHub Pages)

@@ -1,67 +1,95 @@
 {
   "meta": {
     "title": "Francesco & Maria Gracia — 20 de agosto de 2027",
-    "description": "O casamento de Francesco e Maria Gracia, a 20 de agosto de 2027. Data, local, lista de presentes e contribuições."
+    "description": "O casamento de Francesco e Maria Gracia, a 20 de agosto de 2027 em Lisboa. Data, local, lista de presentes e contribuições."
   },
-  "nav": { "story": "A nossa história", "details": "O grande dia", "gifts": "Lista de presentes", "contribute": "Contribuir", "language": "Idioma" },
+  "nav": { "story": "A nossa história", "details": "O grande dia", "gifts": "Presentes", "stay": "Lisboa", "contribute": "Contribuir", "language": "Idioma" },
+  "chooser": {
+    "title": "Duas versões do site",
+    "text": "Escolham a versão que querem consultar. A escolha definitiva será feita mais tarde.",
+    "moderne": "Versão moderna",
+    "carnet": "Versão diário de viagem",
+    "open": "Abrir"
+  },
   "hero": {
-    "eyebrow": "Vamos casar",
+    "eyebrow": "Vamos casar!",
     "date": "Sexta-feira, 20 de agosto de 2027",
-    "save": "Guarde a data",
-    "addToCalendar": "Adicionar ao calendário"
+    "place": "Lisboa",
+    "addToCalendar": "Adicionar ao calendário",
+    "daysLeft": "falta {n} dia | faltam {n} dias",
+    "today": "É hoje!",
+    "past": "Obrigado por partilharem este dia connosco!",
+    "countries": "4 países",
+    "countriesList": "Itália · Venezuela · França · Portugal",
+    "path": "1 caminho",
+    "pathText": "Conhecemo-nos numa peregrinação",
+    "nextStep": "Próxima etapa: o casamento",
+    "quote": "« Os nossos passos encontraram-se no caminho de uma peregrinação. Continuamos a estrada juntos. »",
+    "soon": "Quase casados"
   },
-  "countdown": { "days": "dias", "hours": "horas", "minutes": "minutos", "seconds": "segundos", "today": "É hoje!", "past": "Obrigado por partilharem este dia connosco!" },
   "story": {
-    "eyebrow": "A nossa história",
-    "title": "Dois caminhos, uma só estrada",
-    "intro": "Os nossos caminhos cruzaram-se durante uma peregrinação. Desde então, apesar dos quilómetros, caminhamos juntos.",
-    "francesco": "Nascido em Pescara, na costa dos Abruzos, vive hoje em Grenoble, aos pés dos Alpes.",
-    "mariagracia": "Nascida na Venezuela, vive hoje em Lisboa, à beira do Tejo.",
-    "met": "Uma peregrinação",
-    "metText": "Onde os nossos passos se encontraram e onde tudo começou."
+    "title": "Os nossos caminhos cruzaram-se numa peregrinação.",
+    "carnetTitle": "Quatro cidades, uma só estrada",
+    "intro": "Os nossos caminhos cruzaram-se numa peregrinação. Desde então, apesar dos quilómetros, caminhamos juntos.",
+    "cities": {
+      "pescara": { "name": "Pescara", "tag": "Francesco · as raízes", "text": "Na costa dos Abruzos, de frente para o Adriático.", "long": "Francesco cresceu aqui, de frente para o Adriático.", "alt": "Um trabucco na costa dos Abruzos" },
+      "grenoble": { "name": "Grenoble", "tag": "Francesco · hoje", "text": "Aos pés dos Alpes.", "long": "Onde Francesco vive hoje.", "alt": "As bolhas do teleférico de Grenoble" },
+      "puertocabello": { "name": "Puerto Cabello", "tag": "Maria Gracia · as raízes", "text": "Na costa caribenha da Venezuela.", "long": "Maria Gracia cresceu aqui, de frente para o mar das Caraíbas.", "alt": "O monumento da Águia no Malecón de Puerto Cabello" },
+      "lisbonne": { "name": "Lisboa", "tag": "Maria Gracia · hoje", "text": "À beira do Tejo.", "long": "Onde Maria Gracia vive hoje.", "alt": "Um elétrico amarelo numa rua de Lisboa" }
+    }
   },
   "details": {
-    "eyebrow": "O grande dia",
-    "title": "Quando & onde",
-    "date": "Data",
+    "title": "O grande dia",
+    "carnetTitle": "A etapa de 20 de agosto",
     "ceremony": "Cerimónia",
     "reception": "Receção",
-    "map": "Ver no mapa",
+    "directions": "Itinerário",
     "tbc": "Os detalhes práticos (alojamento, transporte, horários) serão anunciados em breve."
   },
   "gifts": {
-    "eyebrow": "Lista de presentes",
-    "title": "Os nossos desejos",
-    "intro": "A vossa presença é o nosso melhor presente. Para quem nos quiser presentear, eis algumas ideias para construirmos a nossa vida a dois.",
+    "title": "Lista de presentes",
+    "carnetTitle": "Para o resto da viagem",
+    "intro": "A vossa presença é o nosso melhor presente. Para quem nos quiser presentear, eis algumas ideias.",
     "free": "Montante livre",
-    "from": "Cerca de {price}",
-    "contribute": "Contribuir",
+    "about": "Cerca de {price}",
     "view": "Ver",
     "items": {
-      "honeymoon": { "title": "Lua de mel", "text": "Ajudem-nos a viver uma viagem inesquecível para começar a nossa vida de casados." },
+      "honeymoon": { "title": "Lua de mel", "text": "Uma viagem inesquecível para começar a nossa vida de casados." },
       "home": { "title": "A nossa futura casa", "text": "Uma contribuição para nos instalarmos sob o mesmo teto." },
-      "kitchen": { "title": "Utensílios de cozinha", "text": "Para cozinharmos juntos massa italiana e arepas venezuelanas." },
-      "linen": { "title": "Roupa de casa", "text": "Lençóis, toalhas e toalhas de mesa para receber família e amigos." },
-      "table": { "title": "Louça e mesa", "text": "Pratos e copos para longas refeições partilhadas." },
-      "pilgrimage": { "title": "Uma nova peregrinação", "text": "Voltar a caminhar juntos, onde a nossa história começou." }
+      "table": { "title": "Louça e mesa", "text": "Pratos e copos para longas refeições partilhadas." }
     }
   },
+  "stay": {
+    "title": "A vossa estadia em Lisboa",
+    "intro": "O casamento será em Lisboa. Para aproveitarem a estadia, eis as nossas recomendações.",
+    "cta": "Ver as nossas recomendações",
+    "restaurants": { "title": "Restaurantes", "text": "Os nossos sítios preferidos para provar a cozinha portuguesa." },
+    "visit": { "title": "Locais a visitar", "text": "Bairros, monumentos e miradouros a não perder." },
+    "beaches": { "title": "Praias", "text": "As praias mais bonitas a poucos minutos da cidade." }
+  },
   "contribute": {
-    "eyebrow": "Contribuir",
-    "title": "Ajudem-nos a tornar este dia possível",
-    "intro": "Se assim o desejarem, podem contribuir para o nosso casamento e para os nossos projetos por transferência ou online. Muito obrigado, de coração!",
-    "bank": "Transferência bancária",
+    "title": "Participar na festa",
+    "carnetTitle": "Contribuir",
+    "intro": "Podem ajudar-nos a tornar este dia possível por transferência ou online. Muito obrigado, de coração!",
     "holder": "Titular",
     "iban": "IBAN",
     "bic": "BIC / SWIFT",
-    "reference": "Por favor indiquem o vosso nome no descritivo da transferência.",
-    "online": "Pagamento online",
-    "onlineText": "Rápido e seguro, a partir de qualquer país.",
     "copy": "Copiar",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "paypal": "Pagar com PayPal"
+  },
+  "alt": {
+    "hands": "As mãos dos noivos com um ramo",
+    "rings": "Duas alianças douradas sobre um tecido cor de creme",
+    "roses": "Rosas brancas e folhagem",
+    "bouquet": "Ramo de rosas cor de pêssego e brancas",
+    "church": "Os noivos diante do altar de uma igreja",
+    "reception": "Uma mesa posta para a receção",
+    "lisbon": "Um elétrico amarelo numa rua de Lisboa"
   },
   "footer": {
+    "thanks": "Com todo o nosso amor",
     "contact": "Alguma dúvida? Escrevam-nos",
-    "thanks": "Com todo o nosso amor"
+    "photos": "Fotos: Unsplash"
   }
 }
