@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Francesco & Maria Gracia — 20 août 2027",
+    "description": "Le mariage de Francesco et Maria Gracia, le 20 août 2027. Date, lieu, liste de cadeaux et participation."
+  },
+  "nav": { "story": "Notre histoire", "details": "Le jour J", "gifts": "Liste de cadeaux", "contribute": "Participer", "language": "Langue" },
+  "hero": {
+    "eyebrow": "Nous nous marions",
+    "date": "Vendredi 20 août 2027",
+    "save": "Réservez la date",
+    "addToCalendar": "Ajouter au calendrier"
+  },
+  "countdown": { "days": "jours", "hours": "heures", "minutes": "minutes", "seconds": "secondes", "today": "C'est aujourd'hui !", "past": "Merci d'avoir partagé ce jour avec nous !" },
+  "story": {
+    "eyebrow": "Notre histoire",
+    "title": "Deux chemins, une seule route",
+    "intro": "Nos chemins se sont croisés lors d'un pèlerinage. Depuis, malgré les kilomètres, nous marchons ensemble.",
+    "francesco": "Né à Pescara, sur la côte des Abruzzes, il vit aujourd'hui à Grenoble, au pied des Alpes.",
+    "mariagracia": "Née au Venezuela, elle vit aujourd'hui à Lisbonne, au bord du Tage.",
+    "met": "Un pèlerinage",
+    "metText": "Là où nos pas se sont rencontrés et où tout a commencé."
+  },
+  "details": {
+    "eyebrow": "Le jour J",
+    "title": "Quand & où",
+    "date": "Date",
+    "ceremony": "Cérémonie",
+    "reception": "Réception",
+    "map": "Voir sur la carte",
+    "tbc": "Les détails pratiques (hébergement, transport, horaires) seront précisés prochainement."
+  },
+  "gifts": {
+    "eyebrow": "Liste de cadeaux",
+    "title": "Nos envies",
+    "intro": "Votre présence est notre plus beau cadeau. Pour ceux qui souhaitent nous gâter, voici quelques idées pour construire notre vie à deux.",
+    "free": "Montant libre",
+    "from": "Environ {price}",
+    "contribute": "Participer",
+    "view": "Voir",
+    "items": {
+      "honeymoon": { "title": "Voyage de noces", "text": "Aidez-nous à vivre un voyage inoubliable pour commencer notre vie de mariés." },
+      "home": { "title": "Notre futur foyer", "text": "Une contribution pour notre installation sous un même toit." },
+      "kitchen": { "title": "Ustensiles de cuisine", "text": "Pour cuisiner ensemble pâtes italiennes et arepas vénézuéliennes." },
+      "linen": { "title": "Linge de maison", "text": "Draps, serviettes et nappes pour accueillir famille et amis." },
+      "table": { "title": "Art de la table", "text": "Vaisselle et verres pour de longues tablées partagées." },
+      "pilgrimage": { "title": "Un nouveau pèlerinage", "text": "Repartir ensemble sur les chemins, là où notre histoire a commencé." }
+    }
+  },
+  "contribute": {
+    "eyebrow": "Participer",
+    "title": "Nous aider à financer ce beau jour",
+    "intro": "Si vous le souhaitez, vous pouvez participer au financement de notre mariage et de nos projets par virement ou en ligne. Merci du fond du cœur !",
+    "bank": "Virement bancaire",
+    "holder": "Titulaire",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "reference": "Merci d'indiquer votre nom en référence du virement.",
+    "online": "Paiement en ligne",
+    "onlineText": "Rapide et sécurisé, depuis n'importe quel pays.",
+    "copy": "Copier",
+    "copied": "Copié !"
+  },
+  "footer": {
+    "contact": "Une question ? Écrivez-nous",
+    "thanks": "Avec tout notre amour"
+  }
+}

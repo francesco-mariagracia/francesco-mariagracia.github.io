@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Francesco & Maria Gracia — 20 de agosto de 2027",
+    "description": "O casamento de Francesco e Maria Gracia, a 20 de agosto de 2027. Data, local, lista de presentes e contribuições."
+  },
+  "nav": { "story": "A nossa história", "details": "O grande dia", "gifts": "Lista de presentes", "contribute": "Contribuir", "language": "Idioma" },
+  "hero": {
+    "eyebrow": "Vamos casar",
+    "date": "Sexta-feira, 20 de agosto de 2027",
+    "save": "Guarde a data",
+    "addToCalendar": "Adicionar ao calendário"
+  },
+  "countdown": { "days": "dias", "hours": "horas", "minutes": "minutos", "seconds": "segundos", "today": "É hoje!", "past": "Obrigado por partilharem este dia connosco!" },
+  "story": {
+    "eyebrow": "A nossa história",
+    "title": "Dois caminhos, uma só estrada",
+    "intro": "Os nossos caminhos cruzaram-se durante uma peregrinação. Desde então, apesar dos quilómetros, caminhamos juntos.",
+    "francesco": "Nascido em Pescara, na costa dos Abruzos, vive hoje em Grenoble, aos pés dos Alpes.",
+    "mariagracia": "Nascida na Venezuela, vive hoje em Lisboa, à beira do Tejo.",
+    "met": "Uma peregrinação",
+    "metText": "Onde os nossos passos se encontraram e onde tudo começou."
+  },
+  "details": {
+    "eyebrow": "O grande dia",
+    "title": "Quando & onde",
+    "date": "Data",
+    "ceremony": "Cerimónia",
+    "reception": "Receção",
+    "map": "Ver no mapa",
+    "tbc": "Os detalhes práticos (alojamento, transporte, horários) serão anunciados em breve."
+  },
+  "gifts": {
+    "eyebrow": "Lista de presentes",
+    "title": "Os nossos desejos",
+    "intro": "A vossa presença é o nosso melhor presente. Para quem nos quiser presentear, eis algumas ideias para construirmos a nossa vida a dois.",
+    "free": "Montante livre",
+    "from": "Cerca de {price}",
+    "contribute": "Contribuir",
+    "view": "Ver",
+    "items": {
+      "honeymoon": { "title": "Lua de mel", "text": "Ajudem-nos a viver uma viagem inesquecível para começar a nossa vida de casados." },
+      "home": { "title": "A nossa futura casa", "text": "Uma contribuição para nos instalarmos sob o mesmo teto." },
+      "kitchen": { "title": "Utensílios de cozinha", "text": "Para cozinharmos juntos massa italiana e arepas venezuelanas." },
+      "linen": { "title": "Roupa de casa", "text": "Lençóis, toalhas e toalhas de mesa para receber família e amigos." },
+      "table": { "title": "Louça e mesa", "text": "Pratos e copos para longas refeições partilhadas." },
+      "pilgrimage": { "title": "Uma nova peregrinação", "text": "Voltar a caminhar juntos, onde a nossa história começou." }
+    }
+  },
+  "contribute": {
+    "eyebrow": "Contribuir",
+    "title": "Ajudem-nos a tornar este dia possível",
+    "intro": "Se assim o desejarem, podem contribuir para o nosso casamento e para os nossos projetos por transferência ou online. Muito obrigado, de coração!",
+    "bank": "Transferência bancária",
+    "holder": "Titular",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "reference": "Por favor indiquem o vosso nome no descritivo da transferência.",
+    "online": "Pagamento online",
+    "onlineText": "Rápido e seguro, a partir de qualquer país.",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "footer": {
+    "contact": "Alguma dúvida? Escrevam-nos",
+    "thanks": "Com todo o nosso amor"
+  }
+}
