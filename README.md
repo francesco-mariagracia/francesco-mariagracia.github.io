@@ -27,7 +27,7 @@ npm run generate   # site statique dans .output/public
 
 ## Déploiement (GitHub Pages)
 
-Le workflow `.github/workflows/deploy.yml` construit et publie le site à chaque push sur `main`.
+Le workflow `.github/workflows/deploy.yml` construit et publie le site à chaque push sur `main` (ou sur la branche de travail `claude/francesco-maria-wedding-site-sw7qn7`).
 Dans **Settings → Pages**, choisir **Source : GitHub Actions**.
 
 ## Palette
